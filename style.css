@@ -2,20 +2,140 @@ body {
   background-color: #231F20;
   font-family: 'Libre Baskerville', sans-serif;
 }
-/*#navBar {
-  display: flex;
-  flex-direction: row;
-  margin: 0px 5%;
-}*/
-#logo {
-  background-image: url("../KUXlogo-forDark.png");
+#navBar {
+  width: 100%;
+}
+#navBar img{
   height: 88px;
-  width: 300px;
-  padding-top: 32px;
+  align-content: center;
+}
+#navBar ul {
+  display: inline;
+  float: right;
+  list-style-type: none;
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  height: 88px;
+}
+#navBar li{
+  display: inline;
+  float: left;
+  padding: 32px;
+}
+#navBar a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12pt;
+  color: #ffffff;
+}
+#navBar a:hover {
+  text-decoration: underline 3px rgba(0, 0, 0, 0);
+  padding: 32px;
+  border: solid 3px #ffc000;
+}
+#navBar a:active {
+  text-decoration: underline 3px #ffcc00;
+  border: solid 3px rgba(0, 0, 0, 0);
+  border-style: none;
+  padding: 32px;
+}
+
+#about {
+  padding: 32px;
+  display: inline-block;
+  width: 100%;
+}
+#about img {
+  height: 288px;
+  padding: 0 6px;
+  float: left;
+}
+#about p {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  height: 288px;
+  color: #ffffff;
+  width: 768px;
+  font-size: 18px;
+  padding: 32px;
+
+}
+#footer {
+  width: 100%;
+}
+#footer img{
+  height: 88px;
+  align-content: center;
+  display: none;
+}
+#footer ul {
+  display: inline;
+  float: right;
+  list-style-type: none;
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  height: 88px;
+}
+#footer li{
+  display: inline;
+  float: left;
+  padding: 32px;
+}
+#footer a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12pt;
+  color: #ffffff;
+}
+#footer a:hover {
+  text-decoration: underline 3px rgba(0, 0, 0, 0);
+  padding: 32px;
+  border: solid 3px #ffc000;
+}
+#footer a:active {
+  text-decoration: underline 3px #ffcc00;
+  border: solid 3px rgba(0, 0, 0, 0);
+  border-style: none;
+  padding: 32px;
+}
+/*
+#navlinks li a {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 32px;
+  border: solid 3px rgba(0, 0, 0, 0);
+}
+
+#logo {
+  height:88px;
+  padding: 0px;
+}
+#logo img {
+  height: 88px;
+}
+#logo a:hover{
+  text-decoration: none;
+  border-style: none;
+  padding: 32px;
+  border: 0px;
+}
+#navlinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 nav li{
-  display: inline-block;
-  padding: 32px;
+  float: left;
+  color: #ffcc00;
 }
 p {
 font-family: Libre Baskerville;
@@ -27,64 +147,12 @@ letter-spacing: 0em;
 text-align: left;
 color: #ffffff;
 }
-#about p{
-  width: 768px;
-}
-/*#navBar h1 {
-  width: 25%;
-  font-weight: 500;
-}
-#navigation {
-  display: flex;
-  width: 50%;
-  align-items: center;
-  justify-content: space-evenly;
-}
-#navigation p {
-  cursor: pointer;
-  text-decoration: none;
-}
-.icons {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 25%;
-}
-.icons img {
-  margin: 15px;
-  cursor: pointer;
-}
-.highlight {
-  color: #FF6200;
-  font-weight: 700;
-}
-
-/* Typography CSS 
-
-h2 {
-  font-size: 60px;
-  margin: 0px 0px;
-  color: #FF6200;
-}
-
-h3 {
-  font-size: 32px;
-  font-weight: 300;
-  margin: 0px 0px;
-}
-
-h4 {
-  color: white;
-  font-weight: 400;
-  font-size: 22px;
-}
-
-
-#headline p {
-  max-width: 350px;
-  font-size: 16px;
-  font-weight: 300;
-  margin: 0px 0px;
-  color: #636364;
-}
-*/
+/*
+#headshot {
+  height: 300px;
+  width: 300px;
+  padding-top: 32px;
+  object-fit: cover;
+  background: url(20180815AIGABoard.jpg);
+  background-size: auto;
+}*/
